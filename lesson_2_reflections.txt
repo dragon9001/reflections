@@ -7,3 +7,7 @@ How is the staging area different from the working directory and the repository?
 
  Stageing area keep only part of all files in the working directory in tracking.
  That means we can obtain fine-grained control over my project. and keep some files out of tracking.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+ use git diff to compare the working directory and staging area. did not commit until we confirm that's what we need.
