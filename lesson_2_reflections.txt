@@ -1,21 +1,26 @@
-What happens when you initialize a repository? Why do you need to do it?
+1-What happens when you initialize a repository? Why do you need to do it?
 
  1. Git created a .git directory for me. and I was on my master branch now. in one words, I initialized my repo now.
  2.I need to creat a repo for my project, so I can track it.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2-How is the staging area different from the working directory and the repository? What value do you think it offers?
 
  Stageing area keep only part of all files in the working directory in tracking.
  That means we can obtain fine-grained control over my project. and keep some files out of tracking.
 
-How can you use the staging area to make sure you have one commit per logical change?
+3-How can you use the staging area to make sure you have one commit per logical change?
 
  use git diff to compare the working directory and staging area. did not commit until we confirm that's what we need.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+4-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
  for situations including but not limiting: expriment some new feature or creating a foreign version.
  new branch could follow the logic line itself without disrupt the master branch.
  if the new branch succeed, then we can merge it with the master branch.
 
  to sum up, git branch make our develop more logical and easy.
+
+5-How do the diagrams help you visualize the branch structure?
+
+  Impressive! developing is kind of like building a tree. sometimes we want to try something new, then we branch it.
+  With the diagram I understanded how my project are organized.
