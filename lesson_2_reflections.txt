@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ 1. Git created a .git directory for me. and I was on my master branch now. in one words, I initialized my repo now.
+ 2.I need to creat a repo for my project, so I can track it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ Stageing area keep only part of all files in the working directory in tracking.
+ That means we can obtain fine-grained control over my project. and keep some files out of tracking.
