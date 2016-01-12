@@ -24,3 +24,9 @@
 
   Impressive! developing is kind of like building a tree. sometimes we want to try something new, then we branch it.
   With the diagram I understanded how my project are organized.
+
+6-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  1.create a new commit node. give it a new ID.
+  2.this node has 2 previous node. one is HEAD branch1 and the other is HEAD of branch2,both HEAD means the HEAD before merging.
+  3.in the diagram we found that 2 branch diverged at the some point and merged at this point.
