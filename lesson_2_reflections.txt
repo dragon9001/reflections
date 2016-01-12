@@ -30,3 +30,9 @@
   1.create a new commit node. give it a new ID.
   2.this node has 2 previous node. one is HEAD branch1 and the other is HEAD of branch2,both HEAD means the HEAD before merging.
   3.in the diagram we found that 2 branch diverged at the some point and merged at this point.
+
+7-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  Always automaticmerging:
+   pros: fast and efficiently
+   cons: when more than 2 branches modified same lines,automatic merging become unpredictable.
